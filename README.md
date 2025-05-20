@@ -35,28 +35,35 @@ A responsive web application that displays live Ticketmaster events using an int
 ```bash
 git clone https://github.com/your-username/ticketmaster-calendar.git
 cd ticketmaster-calendar
+```
 
 ### 2. Install Dependencies
 
+```bash
 npm install
+```
 
 ### 3. Add Environment Variable
 
 Create a .env file in the project root:
 
+```ini
 VITE_TICKETMASTER_API_KEY=your_api_key_here
+```
 
 🎫 Get your API key from developer.ticketmaster.com
 
 ### 4. Run Locally
 
+```bash
 npm run dev
-
+```
 Then open your browser at:
 http://localhost:5173
 
 📁 Project Structure
 
+```bash
 ticketmaster-calendar/
 ├── public/
 ├── src/
@@ -66,11 +73,11 @@ ticketmaster-calendar/
 ├── .env                # Environment variable
 ├── vite.config.js      # Vite configuration
 └── package.json
-
+```
 📦 Deployment
 
 Push to GitHub
-Connect the repo to Vercel
+Connect the repo to [Vercel](https://vercel.com/)
 Add the environment variable VITE_TICKETMASTER_API_KEY under project settings
 Deploy 🎉
 ✨ Future Enhancements
@@ -83,3 +90,11 @@ Calendar theme customization
 📝 License
 
 MIT
+
+Built with 💙 by Your Name
+
+```yaml
+---
+
+Let me know if you'd like a version with badges (like Netlify deploy, GitHub stars, etc.), or if you want to convert it to a Word doc or PDF format for offline use.
+```
